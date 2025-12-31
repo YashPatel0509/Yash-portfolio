@@ -2,357 +2,293 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Yash Patel | Cybersecurity Portfolio</title>
-
-  <meta
-    name="description"
-    content="Yash Patel - Cybersecurity & Threat Management student with networking diploma, IT support experience, hands-on security projects, and certifications in cloud security, Linux, IPv6 and routing."
-  />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Main stylesheet -->
+  <title>Yash Patel | Cybersecurity Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <!-- HEADER -->
-  <header class="header" id="top">
-    <nav class="nav container">
-      <div class="logo">YP</div>
-
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Skills</a></li>
-        <li><a href="#certs">Certifications</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- HERO -->
-    <section class="hero container">
-      <div class="hero-text">
-        <p class="intro">HELLO, I'M</p>
-        <h1>Yash Patel</h1>
-
-        <p class="tagline">
-          Cybersecurity &amp; Threat Management · Networking Diploma · IT Support Experience
-        </p>
-
-        <p class="hero-summary">
-          Cybersecurity &amp; Threat Management student at Seneca College (President’s Honour List)
-          with a Diploma in Computer Networking &amp; Technical Support and hands-on experience in
-          penetration testing, cloud &amp; IoT security, network monitoring, and security case studies.
-          I work regularly with Kali Linux, Metasploitable2, Suricata, AWS, and Cisco Packet Tracer,
-          backed by certifications in cloud security, Linux, IPv6, and routing.
-        </p>
-
-        <p class="hero-summary">
-          I am currently seeking a cybersecurity co-op for <strong>Summer 2026</strong> and junior roles
-          in Security Operations, SOC, or Blue Team where I can grow and contribute from day one.
-        </p>
-
-        <div class="hero-actions">
-          <a href="Yash_Patel_Resume.pdf" class="btn primary" target="_blank">Download CV</a>
-          <a href="#projects" class="btn">View Projects</a>
-        </div>
-
-        <div class="hero-links">
-          <a href="mailto:yash4050@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/yashpatel0509" target="_blank">LinkedIn</a>
-          <a href="https://github.com/YashPatel0509" target="_blank">GitHub</a>
-        </div>
-
-        <p class="hero-location">
-          Based in Toronto, Canada · Open to co-op and junior security roles (Summer 2026 onwards)
-        </p>
-      </div>
-
-      <div class="hero-image">
-        <img src="profile.jpg" alt="Yash Patel portrait" />
-      </div>
-    </section>
+  <!-- ====== HEADER / NAVBAR ====== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Yash<span>Patel</span></div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- ====== HERO / HOME ====== -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="hero-intro">Hi, I’m</p>
+          <h1>Yash Patel</h1>
+          <p class="hero-subtitle">
+            Cybersecurity &amp; Threat Management · Computer Networking &amp; Technical Support · IT Support Experience
+          </p>
+          <p class="hero-text">
+            I am a Cybersecurity &amp; Threat Management student at Seneca College (President’s Honour List),
+            with a background in Computer Networking &amp; Technical Support and hands-on experience across
+            security labs, penetration testing, IoT security, and cloud monitoring. I am actively
+            seeking a Cybersecurity / IT co-op for Summer 2026.
+          </p>
+          <div class="hero-actions">
+            <a href="docs/Yash_Patel_Resume.pdf" class="btn primary" target="_blank" rel="noopener">
+              Download Resume (PDF)
+            </a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+        </div>
 
-    <!-- ABOUT -->
+        <div class="hero-avatar">
+          <div class="avatar-circle">
+            <span>YP</span>
+          </div>
+          <p class="avatar-caption">Based in Toronto, Canada</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
     <section id="about" class="section">
-      <div class="container">
-        <p class="section-subtitle">Get To Know More</p>
-        <h2 class="section-title">About Me</h2>
+      <div class="container two-column">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m currently in the Cybersecurity &amp; Threat Management postgraduate program at Seneca College,
+            where I’ve worked on hands-on labs involving Windows and Linux security, networking, cloud &amp; IoT
+            security, penetration testing, and security monitoring.
+          </p>
+          <p>
+            Before this, I completed a Computer Networking &amp; Technical Support program and gained IT support
+            experience, giving me a strong foundation in troubleshooting, user support, and infrastructure.
+          </p>
+          <p>
+            I’m interested in roles such as <strong>SOC / Cybersecurity Analyst, IT Support, Network / Security Operations</strong>
+            where I can apply my lab experience, keep learning, and contribute to real-world security work.
+          </p>
+        </div>
 
-        <div class="about-grid">
-
-          <div class="about-card">
-            <h3>Experience</h3>
-            <p class="about-highlight">IT Support &amp; Security Labs</p>
-            <p>
-              Service desk &amp; desktop support background combined with hands-on security
-              projects using Kali Linux, Metasploitable2, Suricata, AWS, and Cisco Packet Tracer.
-            </p>
-          </div>
-
-          <div class="about-card">
-            <h3>Education</h3>
-            <ul class="edu-list">
-              <li>
-                <strong>Cybersecurity &amp; Threat Management (Post-Grad)</strong><br>
-                Seneca College · President’s Honour List
-              </li>
-              <li>
-                <strong>Computer Networking &amp; Technical Support (Diploma)</strong><br>
-                Seneca College
-              </li>
-            </ul>
-          </div>
-
-          <!-- RIGHT COLUMN – now boxed -->
-          <div class="about-card about-text">
-            <h3>Overview</h3>
-            <p>
-              I focus on defensive security — understanding how systems are attacked,
-              then designing monitoring and detection around them. I’ve worked on
-              penetration testing labs, Active Directory environments, cloud &amp; IoT
-              security pipelines, and security analytics using Python.
-            </p>
-            <p>
-              Through group projects and written reports I have analyzed supply-chain
-              breaches, incident response planning, vendor risk, and legal/ethical
-              security considerations. This helps me connect technical security work
-              to business impact and support security operations in the right context.
-            </p>
-          </div>
-
+        <div class="about-card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li><span>Location:</span> Toronto, ON, Canada</li>
+            <li><span>Program:</span> Cybersecurity &amp; Threat Management (Postgraduate)</li>
+            <li><span>Previous:</span> Computer Networking &amp; Technical Support</li>
+            <li><span>Co-op:</span> Seeking Summer 2026</li>
+            <li><span>Interests:</span> SOC, Cloud &amp; IoT Security, Network Security</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section id="experience" class="section section-alt">
+    <!-- ====== SKILLS ====== -->
+    <section id="skills" class="section section-alt">
       <div class="container">
-        <p class="section-subtitle">Explore My</p>
-        <h2 class="section-title">Skills &amp; Experience</h2>
-
-        <div class="skills-strip">
-          <span>Kali Linux</span>
-          <span>Metasploitable2 & DVWA</span>
-          <span>Suricata & Kibana</span>
-          <span>AWS IoT & EC2</span>
-          <span>VPC Flow Logs</span>
-          <span>Cisco Packet Tracer</span>
-          <span>Active Directory</span>
-          <span>Python & Jupyter</span>
-        </div>
-
-        <div class="experience-columns">
-
-          <div class="exp-column">
-            <h3>Cybersecurity</h3>
-
-            <div class="exp-grid">
-              <article class="exp-item">
-                <h4>Penetration Testing</h4>
-                <p>
-                  Enumeration, exploitation, reverse shells and remediation reporting
-                  on Metasploitable2 & DVWA.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Threat Detection (IDS)</h4>
-                <p>
-                  Suricata rule tuning, alert triage, PCAP inspection, Kibana dashboards.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Cloud & IoT Security</h4>
-                <p>
-                  AWS IoT Core, MQTT monitoring, EC2 logging and VPC Flow Log correlation.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Network Security</h4>
-                <p>
-                  VLANs, ACLs, IPv4/IPv6 routing in multi-router Packet Tracer labs.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Incident Response Concepts</h4>
-                <p>
-                  Communications planning, supply-chain risk, privacy & policy awareness.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Linux & Windows</h4>
-                <p>
-                  Permissions, secure configuration, user & access management.
-                </p>
-              </article>
-            </div>
-          </div>
-
-          <div class="exp-column">
-            <h3>Programming & IT Support</h3>
-
-            <div class="exp-grid">
-              <article class="exp-item">
-                <h4>Python & Analytics</h4>
-                <p>
-                  Cybersecurity analytics labs in Jupyter for log & dataset exploration.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>IT Service Desk</h4>
-                <p>
-                  VPN, access troubleshooting, user support & documentation.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Active Directory</h4>
-                <p>
-                  Domain joins, users, groups and access troubleshooting.
-                </p>
-              </article>
-
-              <article class="exp-item">
-                <h4>Documentation</h4>
-                <p>
-                  Professional reports & collaborative project deliverables.
-                </p>
-              </article>
-            </div>
-          </div>
-
+        <h2>Skills</h2>
+        <p class="section-intro">
+          A mix of security, networking, cloud, and IT operations knowledge gained through labs, assignments,
+          and self-study.
+        </p>
+        <div class="chips">
+          <span class="chip">Incident Handling &amp; Response</span>
+          <span class="chip">Security Monitoring &amp; Log Analysis</span>
+          <span class="chip">Penetration Testing Labs (Kali)</span>
+          <span class="chip">Windows &amp; Linux Administration</span>
+          <span class="chip">Networking Fundamentals (IPv4/IPv6)</span>
+          <span class="chip">Active Directory Basics</span>
+          <span class="chip">Cloud &amp; IoT Security (AWS IoT)</span>
+          <span class="chip">Suricata, Filebeat, Elasticsearch, Kibana</span>
+          <span class="chip">Packet Tracer &amp; Network Topologies</span>
+          <span class="chip">Technical Writing &amp; Case Studies</span>
         </div>
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
+    <!-- ====== CERTIFICATIONS / HIGHLIGHTS ====== -->
     <section id="certs" class="section">
       <div class="container">
-        <p class="section-subtitle">Some of My</p>
-        <h2 class="section-title">Certifications & Micro-Credentials</h2>
-
-        <div class="project-grid">
-          <article class="project-card">
-            <h3>OPSWAT – Critical Infrastructure Protection (ICIP)</h3>
+        <h2>Highlights &amp; Certifications</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Academic Achievement</h3>
             <p>
-              Fundamentals of protecting OT/ICS and critical infrastructure environments.
+              Named to the <strong>President’s Honour List</strong> at Seneca College for outstanding performance
+              in the Cybersecurity &amp; Threat Management program.
             </p>
           </article>
-
-          <article class="project-card">
-            <h3>AWS Academy – Cloud Security Foundations</h3>
+          <article class="card">
+            <h3>Hands-On Labs</h3>
             <p>
-              IAM, encryption, logging, monitoring & shared responsibility in AWS.
+              Completed multiple projects in penetration testing, IoT security, network assessment, and
+              security monitoring across Kali Linux, AWS Academy, Packet Tracer, and more.
             </p>
           </article>
-
-          <article class="project-card">
-            <h3>Linux Foundation – Introduction to Linux</h3>
+          <article class="card">
+            <h3>Continuous Learning</h3>
             <p>
-              Shell, users & permissions, filesystem and system administration basics.
-            </p>
-          </article>
-
-          <article class="project-card">
-            <h3>APNIC – IPv6, Address Planning, Routing, OSPF</h3>
-            <p>
-              Network & routing fundamentals supporting lab and security environments.
+              Actively building skills for SOC and security operations roles through coursework, home labs,
+              and independent study.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
+    <!-- ====== PROJECTS ====== -->
+    <section id="projects" class="section section-alt">
       <div class="container">
-        <p class="section-subtitle">Browse My Recent</p>
-        <h2 class="section-title">Projects & Selected Work</h2>
+        <h2>Projects &amp; Selected Work</h2>
+        <p class="section-intro">
+          A selection of technical labs and written case studies that demonstrate my practical skills and
+          understanding of cybersecurity concepts.
+        </p>
 
-        <div class="project-grid">
-
-          <article class="project-card">
-            <h3>IoT Temperature Sensor — AWS + Suricata + Flow Logs</h3>
+        <div class="grid">
+          <!-- IoT Project -->
+          <article class="card">
+            <h3>IoT Security Monitoring with AWS, Suricata &amp; Kibana</h3>
             <p>
-              MQTT → AWS IoT Core → EC2 IDS monitoring with Suricata & Kibana,
-              correlated with VPC Flow Logs.
+              Built an end-to-end IoT security lab using a Raspberry Pi MCP9808 temperature sensor, AWS IoT Core,
+              MQTT, Suricata, Filebeat, Elasticsearch, and Kibana. Mirrored sensor traffic to an EC2 monitoring
+              server, simulated DDoS and malformed MQTT payload attacks, and detected them using custom IDS rules
+              and dashboards. Correlated alerts with AWS VPC Flow Logs stored in S3.
             </p>
+            <p><strong>Tools:</strong> Raspberry Pi, MCP9808, AWS IoT Core, Mosquitto, Suricata, Filebeat, Elasticsearch, Kibana, VPC Flow Logs</p>
+            <div class="card-actions">
+              <a href="docs/CYT160_Part1_IoT_Setup.pdf" class="btn small" target="_blank" rel="noopener">
+                Part 1 – Device &amp; AWS Setup
+              </a>
+              <a href="docs/CYT160_Part3_Suricata_Kibana.pdf" class="btn small" target="_blank" rel="noopener">
+                Part 3 – Suricata &amp; Kibana
+              </a>
+              <a href="docs/CYT160_Part4_VPC_Flow_Logs.pdf" class="btn small" target="_blank" rel="noopener">
+                Part 4 – VPC Flow Logs
+              </a>
+            </div>
           </article>
 
-          <article class="project-card">
+          <!-- Metasploitable2 -->
+          <article class="card">
             <h3>Metasploitable2 Penetration Testing Engagement</h3>
             <p>
-              Exploited UnrealIRCd, NFS, DistCC & DVWA vulnerabilities with remediation report.
+              Performed a structured penetration test against the Metasploitable2 vulnerable VM using Kali Linux.
+              Enumerated services, exploited UnrealIRCd, NFS, DistCC, and DVWA OS command injection vulnerabilities,
+              obtained remote shells, and documented impact and remediation mapped to OWASP risks.
             </p>
+            <p><strong>Tools:</strong> Kali Linux, Nmap, Metasploit, Netcat, DVWA</p>
+            <div class="card-actions">
+              <a href="docs/CYT130_Final_Project_Report.pdf" class="btn small" target="_blank" rel="noopener">
+                View Penetration Test Report (PDF)
+              </a>
+            </div>
           </article>
 
-          <article class="project-card">
-            <h3>Active Directory Internal Lab & Network Assessment</h3>
+          <!-- AD / Internal Lab placeholder -->
+          <article class="card">
+            <h3>Active Directory Internal Lab &amp; Network Assessment</h3>
             <p>
-              Domain lab with enumeration, scanning, foothold & hardening recommendations.
+              Internal lab project focused on building and assessing a small Active Directory environment with
+              Windows Server and client machines. Included basic domain configuration, user and group management,
+              network scanning, and high-level hardening recommendations.
+            </p>
+            <p class="tagline">
+              (Write-up and supporting materials to be added.)
             </p>
           </article>
 
-          <article class="project-card">
-            <h3>Security Case Studies & Written IR / Legal Analysis</h3>
+          <!-- Case Studies & Written Work -->
+          <article class="card">
+            <h3>Security Case Studies &amp; Incident Response Analysis</h3>
             <p>
-              MOVEit supply-chain breach, vendor risk & incident communications planning.
+              Developed several written reports analyzing major real-world breaches and incident response
+              strategies, focusing on supply-chain risk, legal exposure, and communication during incidents.
+              These assignments show my ability to connect technical issues with business and regulatory impact.
             </p>
+            <p><strong>Focus:</strong> Supply-chain security, privacy regulation, incident response, vendor risk.</p>
+            <div class="card-actions">
+              <a href="docs/CYT145_IRP_TCS.pdf" class="btn small" target="_blank" rel="noopener">
+                Incident Response Plan – TCS (PDF)
+              </a>
+              <a href="docs/CYT145_Aadhaar_Breach.pdf" class="btn small" target="_blank" rel="noopener">
+                Aadhaar National ID Breach (PDF)
+              </a>
+              <a href="docs/CYT145_MOVEit_SupplyChain.pdf" class="btn small" target="_blank" rel="noopener">
+                MOVEit Supply-Chain Breach (PDF)
+              </a>
+              <a href="docs/CYT145_MOVEit_Legal_Prevention.pdf" class="btn small" target="_blank" rel="noopener">
+                MOVEit Legal &amp; Preventative Controls (PDF)
+              </a>
+              <a href="docs/CYT145_MOVEit_Communication_Zellis.pdf" class="btn small" target="_blank" rel="noopener">
+                MOVEit Communications Strategy – Zellis (PDF)
+              </a>
+            </div>
           </article>
-
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section section-alt">
-      <div class="container">
-        <p class="section-subtitle">Get in Touch</p>
-        <h2 class="section-title">Contact</h2>
-
-        <div class="contact-grid">
-          <div>
-            <p>
-              I am actively looking for a cybersecurity co-op for <strong>Summer 2026</strong>
-              and junior security roles. I would be happy to connect.
-            </p>
-
-            <ul class="contact-list">
-              <li><strong>Email:</strong> <a href="mailto:yash4050@gmail.com">yash4050@gmail.com</a></li>
-              <li><strong>Phone:</strong> +1 437-219-7668</li>
-              <li><strong>Location:</strong> Toronto, Ontario, Canada</li>
-              <li><strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/yashpatel0509" target="_blank">
-                  linkedin.com/in/yashpatel0509
-                </a>
-              </li>
-            </ul>
-          </div>
+    <!-- ====== CONTACT ====== -->
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div>
+          <h2>Contact</h2>
+          <p>
+            If you’d like to discuss a co-op opportunity, a project, or just connect, feel free to reach out.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span>Email:</span>
+              <a href="mailto:yashpatel0509@gmail.com">yashpatel0509@gmail.com</a>
+            </li>
+            <li>
+              <span>Location:</span> Toronto, ON, Canada
+            </li>
+            <li>
+              <span>LinkedIn:</span>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+                linkedin.com/in/your-profile
+              </a>
+            </li>
+            <li>
+              <span>GitHub:</span>
+              <a href="https://github.com/yashpatel0509" target="_blank" rel="noopener">
+                github.com/yashpatel0509
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
-
   </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Yash Patel</p>
-      <a href="#top">Back to top ↑</a>
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2025 Yash Patel. All rights reserved.</p>
+      <p>Built and hosted on GitHub Pages.</p>
     </div>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
   </footer>
+
+  <script>
+    // Simple mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-open');
+      });
+    }
+  </script>
 </body>
 </html>
